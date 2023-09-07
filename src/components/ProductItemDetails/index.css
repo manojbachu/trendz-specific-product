@@ -1,0 +1,144 @@
+/* Write your CSS here */
+.product-details-container {
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media (max-width: 576px) {
+  .product-details-container {
+    flex-direction: column;
+  }
+}
+
+.product-image {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .product-image {
+    width: 100%;
+  }
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 25px;
+}
+
+@media (max-width: 576px) {
+  .product-details {
+    margin: auto;
+  }
+}
+
+.product-title {
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-weight: 28px;
+  font-family: 'Roboto';
+}
+
+.product-price {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.rating-and-reviews-container {
+  display: flex;
+  align-items: center;
+}
+
+.ratings-container {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  padding: 3px 8px 3px 8px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.rating {
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.star-image {
+  height: 13px;
+}
+
+.reviews {
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.product-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #616e7c;
+  line-height: 1.5;
+}
+
+.available {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.availability {
+  font-weight: normal;
+  color: #616e7c;
+}
+
+.break-line {
+  border: 1px solid #cbced2;
+  width: 100%;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+}
+
+.count-button {
+  background: none;
+  padding: 1px 5px 0 5px;
+  border: 1px solid #475569;
+  border-radius: 2px;
+}
+
+.count-number {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.add-to-cart-button {
+  background-color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 12px 7px 12px;
+  border-radius: 2px;
+}
+
+.similar-products {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 1110px;
+  flex-wrap: wrap;
+}
