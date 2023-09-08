@@ -110,9 +110,9 @@
 
 .count-button {
   background: none;
-  padding: 1px 5px 0 5px;
-  border: 1px solid #475569;
-  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .count-number {
@@ -141,4 +141,41 @@
   width: 90%;
   max-width: 1110px;
   flex-wrap: wrap;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-items-failure {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 1110px;
+}
+
+.error-image {
+  width: 80%;
+}
+
+.error-msg {
+  font-family: 'Roboto';
+}
+
+.continue-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
 }
